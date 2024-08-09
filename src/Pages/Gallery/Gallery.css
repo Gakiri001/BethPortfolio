@@ -1,0 +1,99 @@
+.Gallery{
+  margin-top: 9rem;
+  padding: 1rem;
+}
+.Gallery .GalleryHeader{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url(../../assets/pic39.jpg);
+background-size: cover;
+background-position: center;
+height: 40vh;
+margin-bottom: 2rem;
+display: grid;
+place-content: center;
+border-radius: 10px;
+}
+.Gallery .GalleryHeader h1{
+  text-align: center;
+  font-size: 40px;
+  color: var(--color1);
+  font-style: italic;
+}
+.Gallery .GalleryWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.Gallery .GalleryWrapper .Gallerycard{
+  width: 30%;
+  position: relative;
+}
+.Gallery .GalleryWrapper .Gallerycard .Gallerycardimage{
+  width: 100%;
+
+}
+.Gallery .GalleryWrapper .Gallerycard .Gallerycardimage img{
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 1);
+}
+.Gallery .GalleryWrapper .Gallerycard .Gallerycardinfo{
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+}
+.Gallery .GalleryWrapper .Gallerycard .Gallerycardinfo div,
+.Gallery .GalleryWrapper .Gallerycard .Gallerycardinfo h2,
+.Gallery .GalleryWrapper .Gallerycard .Gallerycardinfo p{
+  color: var(--color1);
+}
+.Gallery .GalleryWrapper .Gallerycard .Gallerycardinfo h2,
+.Gallery .GalleryWrapper .Gallerycard .Gallerycardinfo p{
+  font-style: italic;
+}
+.Gallery .GalleryWrapper .Gallerycard .Gallerycardinfo div{
+  font-size: 20px;
+}
+.Gallery .GalleryWrapper .Gallerycard .Gallerycardinfo h2{
+  font-size: 18px;
+}
+.Gallery .GalleryWrapper .Gallerycard .Gallerycardinfo p{
+  font-size: 12px;
+}
+
+@media screen and (max-width: 45em) {
+  .Gallery .GalleryWrapper .Gallerycard{
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 38.4375em) {
+  .Gallery .GalleryWrapper .Gallerycard{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 26.875em) {
+  .Gallery{
+    margin-top: 7rem;
+  }
+  .Gallery .GalleryWrapper .Gallerycard{
+    width: 90%;
+    margin-top: 1rem;
+  }
+  .Gallery .GalleryWrapper .Gallerycard .Gallerycardimage img{
+    width: 100%;
+    height: 50vh;
+  }
+  .Gallery .GalleryWrapper .Gallerycard .Gallerycardinfo h2{
+    font-size: 15px;
+  }
+  .Gallery .GalleryWrapper .Gallerycard .Gallerycardinfo p{
+    font-size: 10px;
+  }
+  
+}
