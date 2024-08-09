@@ -7,6 +7,15 @@ import image6 from "../assets/pic6.jpg"
 import image7 from "../assets/pic7.jpg"
 import image8 from "../assets/pic8.jpg"
 import image9 from "../assets/pic9.jpg"
+import image10 from "../assets/pic20.jpg"
+import image11 from "../assets/pic11.jpg"
+import image12 from "../assets/pic24.jpg"
+import image13 from "../assets/pic13.jpg"
+import image14 from "../assets/pic14.jpg"
+import image15 from "../assets/pic38.jpg"
+import image16 from "../assets/pic16.jpg"
+import image17 from "../assets/pic25.jpg"
+import image18 from "../assets/pic18.jpg"
 
 const gallery = [
   {
@@ -53,6 +62,51 @@ const gallery = [
     image: image9,
     qoute: "Her caring heart heals and uplifts.",
     sub:"Her compassion brings comfort and hope.",
+  },
+  {
+    image: image10,
+    qoute: "Embrace the beauty in every moment.",
+    sub:"Find beauty in life's simple moments.",
+  },
+  {
+    image: image11,
+    qoute: "Beauty is a gift to cherish.",
+    sub:"Value beauty as a precious gift.",
+  },
+  {
+    image: image12,
+    qoute: "True beauty is found in kindness.",
+    sub:"Kindness makes a person truly beautiful.",
+  },
+  {
+    image: image13,
+    qoute: "Confidence is the key to beauty.",
+    sub:"Confidence enhances your natural beauty.",
+  },
+  {
+    image: image14,
+    qoute: "She is a beacon of hope and light.",
+    sub:"Her presence brings inspiration and guidance.",
+  },
+  {
+    image: image15,
+    qoute: "Her strength is rooted in love.",
+    sub:"Love empowers her to conquer all.",
+  },
+  {
+    image: image16,
+    qoute: "She is the pillar of her family.",
+    sub:"Her strength supports those she loves.",
+  },
+  {
+    image: image17,
+    qoute: "Her beauty blossoms from within.",
+    sub:"Inner beauty defines her true essence.",
+  },
+  {
+    image: image18,
+    qoute: "She leads with grace, power, and compassion.",
+    sub:"Leadership is her natural state.",
   },
 ];
 
