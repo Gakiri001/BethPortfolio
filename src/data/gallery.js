@@ -4,6 +4,9 @@ import image3 from "../assets/pic3.jpg"
 import image4 from "../assets/pic4.jpg"
 import image5 from "../assets/pic5.jpg"
 import image6 from "../assets/pic6.jpg"
+import image7 from "../assets/pic7.jpg"
+import image8 from "../assets/pic8.jpg"
+import image9 from "../assets/pic9.jpg"
 
 const gallery = [
   {
@@ -35,6 +38,21 @@ const gallery = [
     image: image6,
     qoute: "She is the strength of generations",
     sub:"Her power shapes the future.",
+  },
+  {
+    image: image7,
+    qoute: "Her beauty shines through her resilience.",
+    sub:"Resilience enhances her natural grace.",
+  },
+  {
+    image: image8,
+    qoute: "In her hands, dreams are built.",
+    sub:"She turns dreams into reality.",
+  },
+  {
+    image: image9,
+    qoute: "Her caring heart heals and uplifts.",
+    sub:"Her compassion brings comfort and hope.",
   },
 ];
 
