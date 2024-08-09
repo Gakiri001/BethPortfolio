@@ -1,0 +1,132 @@
+:root {
+  --color1: #ffb200;
+  --color2: #eb5b00;
+  --color3: #e4003a;
+  --color4: #b60071;
+  scroll-behavior: smooth;
+}
+.Header {
+  padding: 0.2rem;
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 20vh;
+}
+.Header .Headerlogo {
+  width: 20%;
+  height: 100%;
+  padding: 0;
+}
+.Header .Headerlogo img {
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Header .Headerpages {
+  width: 80%;
+}
+
+.Header .Headerpages ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Header .Headerpages ul .close,
+.Header .Headerpages .hamburger {
+  display: none;
+}
+.Header .Headerpages ul li .links {
+  text-decoration: none;
+  color: var(--color1);
+}
+.Header .Headerpages ul li .links:hover {
+  color: var(--color2);
+}
+
+@media screen and (max-width: 44.375em) {
+  .Header {
+    justify-content: space-between;
+  }
+  .Header .Headerlogo {
+    width: 20%;
+  }
+  .Header .Headerpages {
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+  }
+  .Header .Headerpages ul .close {
+    width: 30px;
+    height: 30px;
+    background-color: var(--color1);
+    color: black;
+    display: grid;
+    place-content: center;
+    /* line-height: 50px;
+    text-align: center; */
+    font-size: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.2rem;
+  }
+  .Header .Headerpages .hamburger {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color1);
+    color: black;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .Header .Headerpages ul .close,
+  .Header .Headerpages .hamburger {
+    display: initial;
+  }
+  .Header .Headerpages ul {
+    position: absolute;
+    padding: 2rem;
+    top: -1rem;
+    right: -280px;
+    width: 220px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1.5px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.3s ease;
+  }
+  .Header .Headerpages.active ul {
+    right: 0;
+  }
+  .Header .Headerpages ul li {
+    padding: 20px 0 20px 40px;
+    margin-left: 0;
+  }
+  .Header .Headerpages ul li .links {
+    padding: 0.2rem 0.4rem;
+    border-radius: 10px;
+  }
+  .Header .Headerpages ul li.links {
+    color: var(--color1);
+  }
+}
+
+@media screen and (max-width: 26.875em) {
+  .Header {
+    height: 8vh;
+  }
+}
