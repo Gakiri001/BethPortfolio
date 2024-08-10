@@ -16,16 +16,17 @@
   color: var(--color1);
   cursor: pointer;
 }
-.Footer .FooterWrapper .FooterLeft .rights{
-  font-size: 12px;
-  font-style: italic;
-}
+
 .Footer .FooterWrapper .FooterLeft img {
   width: 80px;
   border-radius: 50%;
 }
 .Footer .FooterWrapper .FooterLeft p {
   text-align: center;
+}
+.Footer .FooterWrapper .FooterRight{
+  display: grid;
+  place-content: center;
 }
 .Footer .FooterWrapper .FooterRight p {
   display: flex;
@@ -43,4 +44,24 @@
 }
 .Footer .FooterWrapper .FooterRight p span:hover {
   background-color: rgb(189, 187, 187);
+}
+.Footer .rights{
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
+
+@media screen and (max-width: 26.875em) {
+  .Footer .FooterWrapper .FooterLeft p {
+    font-size: 12px;
+    margin: 7px 0;
+  }
+  .Footer .FooterWrapper .FooterRight h2{
+    font-size: 15px;
+  }
+  .Footer .FooterWrapper .FooterRight p span {
+    /* font-size: 12px; */
+    width: 30px;
+    height: 30px;
+  }
 }

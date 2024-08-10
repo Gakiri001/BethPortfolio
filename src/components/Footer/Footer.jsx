@@ -14,8 +14,8 @@ function Footer() {
       <div className="FooterWrapper">
         <div className="FooterLeft">
           <img src={juliTechLogo} alt="" />
-          <p>Developed by <span>GlobalJunction Tech</span></p>
-          <p className="rights">All Rights Reserved </p>
+          <p>Developed by, <span>GlobalJunction Tech</span></p>
+        
         </div>
         <div className="FooterRight">
           <h2>Follow us,</h2>
@@ -35,6 +35,7 @@ function Footer() {
           </p>
         </div>
       </div>
+      <p className="rights">All Rights Reserved 2024 </p>
     </div>
   );
 }
