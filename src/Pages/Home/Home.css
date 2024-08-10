@@ -89,3 +89,31 @@
     font-size: 12px;
   }
 }
+
+/*Carousel*/
+.Carousel p{
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: var(--color1);
+}
+.Carousel{
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.Carousel .root {
+  width: 50%;
+  margin: 0 auto;
+}
+.Carousel .root div img {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 51.875em) {
+  .Carousel .root {
+    width: 80%;
+  }
+}
