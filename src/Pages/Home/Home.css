@@ -102,11 +102,12 @@
   padding: 1rem;
 }
 .Carousel .root {
-  width: 50%;
+  width: 25%;
   margin: 0 auto;
 }
 .Carousel .root div img {
   width: 100%;
+  height: 70vh;
   object-fit: cover;
   border-top-left-radius: 60px;
   border-bottom-right-radius: 60px;
@@ -115,6 +116,11 @@
 @media screen and (max-width: 51.875em) {
   .Carousel .root {
     width: 80%;
+  }
+}
+@media screen and (max-width: 26.875em) {
+  .Carousel .root div img {
+    height: auto;
   }
 }
 
@@ -174,6 +180,14 @@
   }
   .About .Aboutleft p{
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 26.875em) {
+  .About .AboutRight{
+    width: 80%;
+  }
+  .About .AboutRight img{
+    height: auto;
   }
 }
 
