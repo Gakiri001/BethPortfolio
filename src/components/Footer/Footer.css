@@ -1,5 +1,5 @@
 .Footer {
-  background-color: #3572ef;
+  background-color: #6799fc;
   padding: 0.6rem;
 }
 .Footer .FooterWrapper {
@@ -13,7 +13,7 @@
   align-items: center;
 }
 .Footer .FooterWrapper .FooterLeft p span{
-  color: var(--color1);
+  color: var(--color2);
   cursor: pointer;
 }
 
@@ -37,7 +37,7 @@
   height: 40px;
   border-radius: 50%;
   background: white;
-  color: #3572ef;
+  color: #6799fc;
   display: grid;
   place-content: center;
   cursor: pointer;
@@ -52,6 +52,9 @@
 }
 
 @media screen and (max-width: 26.875em) {
+  .Footer .FooterWrapper .FooterLeft img {
+    width: 60px;
+  }
   .Footer .FooterWrapper .FooterLeft p {
     font-size: 12px;
     margin: 7px 0;
