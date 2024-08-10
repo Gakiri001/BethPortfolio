@@ -3,6 +3,7 @@ import Header from "./components/Header/Header"
 import "./assets/global.css"
 import Gallery from "./Pages/Gallery/Gallery"
 import Home from "./Pages/Home/Home"
+import Footer from "./components/Footer/Footer"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
        <Route path="/" element={<Home />} />
         <Route path="/Gallery" element={<Gallery />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
