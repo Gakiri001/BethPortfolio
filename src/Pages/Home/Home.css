@@ -1,0 +1,91 @@
+:root {
+  --color1: #ffb200;
+  --color2: #eb5b00;
+  --color3: #e4003a;
+  --color4: #b60071;
+  scroll-behavior: smooth;
+}
+.Hero {
+  margin: 1rem;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/pic28.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  height: 70vh;
+}
+.Hero h1 {
+  padding: 1rem 0;
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+  color: var(--color1);
+}
+.Hero p span,
+.Hero h1 span {
+  color: white;
+}
+.Hero p {
+  padding-bottom: 1rem;
+  font-size: 20px;
+  text-align: center;
+  color: var(--color1);
+  font-style: italic;
+}
+.Hero a {
+  text-decoration: none;
+  padding: 1rem 1.8rem;
+  color: var(--color3);
+  background-color: var(--color1);
+  border-radius: 10px;
+  font-size: 18px;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+@media screen and (max-width: 58.125em) {
+  .Hero {
+    margin-top: 12rem;
+    height: auto;
+  }
+}
+@media screen and (max-width: 55.625em) {
+  .Hero {
+    margin-top: 10rem;
+  }
+}
+@media screen and (max-width: 54.375em) {
+  .Hero{
+    margin-top: 10rem;
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 51.875em) {
+  .Hero h1 {
+    font-size: 30px;
+  }
+  .Hero p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 26.875em) {
+  .Hero {
+    height: 50vh;
+    margin-top: 6rem;
+  }
+  .Hero h1 {
+    font-size: 20px;
+  }
+  .Hero p {
+    font-size: 12px;
+  }
+  .Hero a {
+    font-size: 12px;
+  }
+}
