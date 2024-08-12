@@ -1,5 +1,54 @@
 import React from "react";
 import "./Blog.css";
+import Career from "./Career";
+
+
+// const Blogcard = ({CareerQuestion, CareerAnswer,BeautyQuestion, BeautyAnswer, PersonalQuestion, PersonalAnswer, FashionQuestion, FashionAnswer, BTSQuestion, BTSAnswer }) => {
+//   return(
+//     <div className="Blogcard">
+//       <div className="item">
+//         <h1>Career and Industry Insights</h1>
+//         <div className="title">
+//           <h2>{CareerQuestion}</h2>
+//           <span> + </span>
+//         </div>
+//         <div>{CareerAnswer}</div>
+//       </div>
+//       <div className="item">
+//         <h1>Beauty and Skincare Tips</h1>
+//         <div className="title">
+//           <h2>{BeautyQuestion}</h2>
+//           <span>+</span>
+//         </div>
+//         <div>{BeautyAnswer}</div>
+//       </div>
+//       <div className="item">
+//         <h1>Personal Life and Hobbies</h1>
+//         <div className="title">
+//           <h2>{PersonalQuestion}</h2>
+//           <span>+</span>
+//         </div>
+//         <div>{PersonalAnswer}</div>
+//       </div>
+//       <div className="item">
+//         <h1>Fashion and Style Advice</h1>
+//         <div className="title">
+//           <h2>{FashionQuestion}</h2>
+//           <span>+</span>
+//         </div>
+//         <div>{FashionAnswer}</div>
+//       </div>
+//       <div className="item">
+//         <h1>Behind-the-Scenes Experiences</h1>
+//         <div className="title">
+//           <h2>{BTSQuestion}</h2>
+//           <span>+</span>
+//         </div>
+//         <div>{BTSAnswer}</div>
+//       </div>
+//     </div>
+//   )
+// }
 
 function Blog() {
   return (
@@ -67,7 +116,25 @@ function Blog() {
         </ul>
       </div>
 
-      <div className="accordionwrapper"></div>
+      <div className="accordionwrapper">
+        {/* {blog.map((current, i) =>(
+          <Blogcard
+          key={i}
+          CareerQuestion={current.CareerQuestion}
+          CareerAnswer={current.CareerAnswer}
+          BeautyQuestion={current.BeautyQuestion}
+          BeautyAnswer={current.BeautyAnswer}
+          PersonalQuestion={current.PersonalQuestion}
+          PersonalAnswer={current.PersonalAnswer}
+          FashionQuestion={current.FashionQuestion}
+          FashionAnswer={current.FashionAnswer}
+          BTSQuestion={current.BTSQuestion}
+          BTSAnswer={current.BTSAnswer}
+          />
+        ))} */}
+        <h2> Q&A section</h2>
+        <Career/>
+      </div>
     </div>
   );
 }
