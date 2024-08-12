@@ -3,6 +3,7 @@ import "./Blog.css";
 import Career from "./Career";
 import Beauty from "./Beauty";
 import Personal from "./Personal";
+import Fashion from "./Fashion";
 
 // const Blogcard = ({CareerQuestion, CareerAnswer,BeautyQuestion, BeautyAnswer, PersonalQuestion, PersonalAnswer, FashionQuestion, FashionAnswer, BTSQuestion, BTSAnswer }) => {
 //   return(
@@ -137,6 +138,7 @@ function Blog() {
         <Career />
         <Beauty />
         <Personal />
+        <Fashion />
       </div>
     </div>
   );
