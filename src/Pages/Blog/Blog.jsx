@@ -2,7 +2,7 @@ import React from "react";
 import "./Blog.css";
 import Career from "./Career";
 import Beauty from "./Beauty";
-
+import Personal from "./Personal";
 
 // const Blogcard = ({CareerQuestion, CareerAnswer,BeautyQuestion, BeautyAnswer, PersonalQuestion, PersonalAnswer, FashionQuestion, FashionAnswer, BTSQuestion, BTSAnswer }) => {
 //   return(
@@ -134,8 +134,9 @@ function Blog() {
           />
         ))} */}
         <h2> Q&A section</h2>
-        <Career/>
-        <Beauty/>
+        <Career />
+        <Beauty />
+        <Personal />
       </div>
     </div>
   );

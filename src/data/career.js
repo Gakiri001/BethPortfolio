@@ -15,6 +15,6 @@ const career = [
     CareerAnswer:
       "Believe in yourself and your unique qualities. The modeling industry can be tough, but perseverance and a strong sense of self can help you overcome the challenges. Networking and continuously improving your skills are also crucial.",
   },
-]
+];
 
-export default career
+export default career;
