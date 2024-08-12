@@ -1,9 +1,9 @@
-import image1 from "../assets/pic33.jpg"
+import image1 from "../assets/pic37.jpg"
 import image2 from "../assets/pic2.jpg"
 import image3 from "../assets/pic3.jpg"
 import image4 from "../assets/pic4.jpg"
 import image5 from "../assets/pic5.jpg"
-import image6 from "../assets/pic6.jpg"
+import image6 from "../assets/pic35.jpg"
 import image7 from "../assets/pic7.jpg"
 import image8 from "../assets/pic8.jpg"
 import image9 from "../assets/pic9.jpg"
@@ -15,7 +15,7 @@ import image14 from "../assets/pic14.jpg"
 import image15 from "../assets/pic38.jpg"
 import image16 from "../assets/pic16.jpg"
 import image17 from "../assets/pic25.jpg"
-import image18 from "../assets/pic18.jpg"
+import image18 from "../assets/pic29.jpg"
 
 const gallery = [
   {
