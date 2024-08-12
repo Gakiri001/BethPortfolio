@@ -161,6 +161,12 @@
   .BlogWrapper .Careercard,
   .BlogWrapper .FashionCard,
   .BlogWrapper .PersonalCard {
-    width: 90%;
+    width: 100%;
+  }
+  .BlogWrapper .item .title h3 {
+    font-size: 13px;
+  }
+  .BlogWrapper .item .content {
+    font-size: 13px;
   }
 }
