@@ -1,6 +1,7 @@
 import React from "react";
 import "./Blog.css";
 import Career from "./Career";
+import Beauty from "./Beauty";
 
 
 // const Blogcard = ({CareerQuestion, CareerAnswer,BeautyQuestion, BeautyAnswer, PersonalQuestion, PersonalAnswer, FashionQuestion, FashionAnswer, BTSQuestion, BTSAnswer }) => {
@@ -134,6 +135,7 @@ function Blog() {
         ))} */}
         <h2> Q&A section</h2>
         <Career/>
+        <Beauty/>
       </div>
     </div>
   );

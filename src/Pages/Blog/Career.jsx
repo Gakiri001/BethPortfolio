@@ -18,7 +18,7 @@ const Careercard = ({CareerQuestion,CareerAnswer}) => {
 
 function Career() {
   return (
-    <div>
+    <div className='BlogWrapper'>
       <h1>Career and Industry Insights</h1>
       {career.map((current,i) =>(
         <Careercard
