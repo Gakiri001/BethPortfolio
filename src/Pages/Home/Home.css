@@ -60,7 +60,7 @@
   }
 }
 @media screen and (max-width: 54.375em) {
-  .Hero{
+  .Hero {
     margin-top: 10rem;
     height: 50vh;
   }
@@ -91,13 +91,13 @@
 }
 
 /*Carousel*/
-.Carousel p{
+.Carousel p {
   text-align: center;
   font-style: italic;
   margin-bottom: 1rem;
   color: var(--color1);
 }
-.Carousel{
+.Carousel {
   margin-top: 2rem;
   padding: 1rem;
 }
@@ -125,68 +125,68 @@
 }
 
 /*About*/
-.About{
+.About {
   padding: 1rem;
   display: flex;
   justify-content: space-between;
 }
-.About .Aboutleft{
+.About .Aboutleft {
   width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.About .Aboutleft h2{
+.About .Aboutleft h2 {
   font-size: 60px;
   color: var(--color2);
   font-style: italic;
   margin-bottom: 1rem;
   text-align: center;
 }
-.About .Aboutleft p{
+.About .Aboutleft p {
   font-size: 15px;
   color: var(--color2);
   line-height: 1.5rem;
   font-style: italic;
   text-align: center;
 }
-.About .AboutRight{
+.About .AboutRight {
   width: 30%;
 }
-.About .AboutRight img{
+.About .AboutRight img {
   width: 100%;
   border-top-left-radius: 60px;
   border-bottom-right-radius: 60px;
   box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 1);
 }
 @media screen and (max-width: 61em) {
-  .About{
+  .About {
     flex-direction: column;
   }
-  .About .Aboutleft{
+  .About .Aboutleft {
     width: 80%;
     margin: 0 auto;
     margin-bottom: 2rem;
   }
-  .About .AboutRight{
+  .About .AboutRight {
     width: 60%;
     margin: 0 auto;
   }
 }
 @media screen and (max-width: 39.6875em) {
-  .About .Aboutleft h2{
+  .About .Aboutleft h2 {
     font-size: 40px;
   }
-  .About .Aboutleft p{
+  .About .Aboutleft p {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 26.875em) {
-  .About .AboutRight{
+  .About .AboutRight {
     width: 80%;
   }
-  .About .AboutRight img{
+  .About .AboutRight img {
     height: auto;
   }
 }
@@ -200,7 +200,7 @@
   overflow: hidden;
   position: relative;
 }
-.banner h1{
+.banner h1 {
   font-size: 30px;
   text-transform: capitalize;
   color: var(--color2);

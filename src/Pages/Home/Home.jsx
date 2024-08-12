@@ -4,7 +4,6 @@ import Carousel from "./Carousel";
 import About from "./About";
 import Workwith from "./Workwith";
 
-
 function Home() {
   return (
     <>

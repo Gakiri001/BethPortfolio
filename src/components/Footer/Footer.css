@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
 }
-.Footer .FooterWrapper .FooterLeft p span{
+.Footer .FooterWrapper .FooterLeft p span {
   color: var(--color2);
   cursor: pointer;
 }
@@ -24,7 +24,7 @@
 .Footer .FooterWrapper .FooterLeft p {
   text-align: center;
 }
-.Footer .FooterWrapper .FooterRight{
+.Footer .FooterWrapper .FooterRight {
   display: grid;
   place-content: center;
 }
@@ -45,7 +45,7 @@
 .Footer .FooterWrapper .FooterRight p span:hover {
   background-color: rgb(189, 187, 187);
 }
-.Footer .rights{
+.Footer .rights {
   font-size: 12px;
   font-style: italic;
   text-align: center;
@@ -59,7 +59,7 @@
     font-size: 12px;
     margin: 7px 0;
   }
-  .Footer .FooterWrapper .FooterRight h2{
+  .Footer .FooterWrapper .FooterRight h2 {
     font-size: 15px;
   }
   .Footer .FooterWrapper .FooterRight p span {

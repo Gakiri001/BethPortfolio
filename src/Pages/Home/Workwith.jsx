@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./Home.css";
 import pic1 from "../../assets/mmaid.jpeg";
 import pic2 from "../../assets/inspo.png";
@@ -29,7 +29,7 @@ function Workwith() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Workwith
+export default Workwith;

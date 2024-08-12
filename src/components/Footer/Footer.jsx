@@ -14,8 +14,9 @@ function Footer() {
       <div className="FooterWrapper">
         <div className="FooterLeft">
           <img src={juliTechLogo} alt="" />
-          <p>Developed by, <span>GlobalJunction Tech</span></p>
-        
+          <p>
+            Developed by, <span>GlobalJunction Tech</span>
+          </p>
         </div>
         <div className="FooterRight">
           <h2>Follow us,</h2>
