@@ -2,7 +2,7 @@ const career = [
   {
     CareerQuestion: "How did you get started in the modeling industry?",
     CareerAnswer:
-      "My journey into modeling began in 2019 during my time at Machakos University. I was discovered while still a student, and what started as a hobby soon turned into a passion and a full-time career. My first major breakthrough was being featured in the Nairobian, which opened many doors for me.",
+      "My journey into modeling began in 2019 during my time at Machakos University. I discovered the modeling urge while still a student, and what started as a hobby soon turned into a passion and a full-time career. My first major breakthrough was being featured in the Nairobian, which opened many doors for me.",
   },
   {
     CareerQuestion:

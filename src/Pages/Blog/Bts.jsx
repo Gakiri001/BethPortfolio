@@ -1,5 +1,6 @@
 import React from "react";
 import bts from "../../data/bts";
+import "./Blog.css";
 
 const BtsCard = ({ BTSQuestion, BTSAnswer }) => {
   return (
@@ -17,7 +18,7 @@ const BtsCard = ({ BTSQuestion, BTSAnswer }) => {
 
 function Bts() {
   return (
-    <div>
+    <div className="BlogWrapper">
       <h1>Behind-the-Scenes Experiences</h1>
       {bts.map((current, i) => (
         <BtsCard

@@ -1,5 +1,6 @@
 import React from "react";
 import fashion from "../../data/fashion";
+import "./Blog.css";
 
 const FashionCard = ({ FashionQuestion, FashionAnswer }) => {
   return (
