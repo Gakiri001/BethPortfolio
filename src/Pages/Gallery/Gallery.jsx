@@ -3,7 +3,7 @@ import "./Gallery.css"
 import { CiFaceSmile } from "react-icons/ci";
 import gallery from '../../data/gallery';
 
-const Gallerycard = ({image,qoute,sub }) => {
+const Gallerycard = ({image }) => {
   return(
     <div className='Gallerycard'>
       <div className='Gallerycardimage'>
@@ -11,8 +11,8 @@ const Gallerycard = ({image,qoute,sub }) => {
       </div>
       <div className='Gallerycardinfo'>
         <div><CiFaceSmile/></div>
-        <h2>{qoute}</h2>
-        <p>{sub}</p>
+        {/* <h2>{qoute}</h2>
+        <p>{sub}</p> */}
       </div>
     </div>
   )
@@ -29,8 +29,8 @@ function Gallery() {
           <Gallerycard
           key={i}
           image={current.image}
-          qoute={current.qoute}
-          sub={current.sub}
+          // qoute={current.qoute}
+          // sub={current.sub}
           />
         ))}
       </div>
