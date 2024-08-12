@@ -37,7 +37,7 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link className="links" to="/blog" onClick={handleMenuClose}>
+            <Link className="links" to="/Blog" onClick={handleMenuClose}>
               Blog
             </Link>
           </li>
