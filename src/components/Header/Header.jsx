@@ -42,7 +42,7 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link className="links" to="/contacts" onClick={handleMenuClose}>
+            <Link className="links" to="/Contact" onClick={handleMenuClose}>
               Contacts
             </Link>
           </li>

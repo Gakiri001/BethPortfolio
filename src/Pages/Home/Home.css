@@ -189,6 +189,9 @@
   .About .AboutRight img {
     height: auto;
   }
+  .About .Aboutleft h2 {
+    font-size: 20px;
+  }
 }
 
 .banner {
@@ -245,4 +248,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+@media screen and (max-width: 26.875em) {
+  .banner h1 {
+    font-size: 20px;
+  }
 }

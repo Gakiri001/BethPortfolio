@@ -1,0 +1,181 @@
+:root {
+  scroll-behavior: smooth;
+}
+.Contact {
+  padding: 1rem;
+  margin-top: 9rem;
+}
+.Contact .Hedaer {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../assets/contact11.jpg);
+  background-size: cover;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+.Contact .Hedaer h1 {
+  text-align: center;
+  padding: 4rem 0;
+  padding-bottom: 9.5rem;
+  visibility: hidden;
+}
+.Contact .ContactWrapper {
+  display: flex;
+  column-gap: 2rem;
+}
+.Contact .ContactWrapper .Contactleft {
+  width: 30%;
+  margin-bottom: 20px;
+}
+.Contact .ContactWrapper .Contactleft .leftHead h1,
+.Contact .ContactWrapper .Contactleft .leftHead p {
+  margin-bottom: 10px;
+}
+hr {
+  height: 5px;
+  background-color: var(--color1);
+  margin-bottom: 10px;
+}
+.Contact .ContactWrapper .Contactleft .contactinfoWrapper .contactinfo {
+  margin-bottom: 20px;
+}
+.Contact .ContactWrapper .Contactleft .contactinfoWrapper .contactinfo h2 {
+  margin-bottom: 10px;
+}
+.Contact
+  .ContactWrapper
+  .Contactleft
+  .contactinfoWrapper
+  .contactinfo
+  .contactinfosvgDial {
+  display: flex;
+  column-gap: 4rem;
+  align-items: center;
+}
+.Contact
+  .ContactWrapper
+  .Contactleft
+  .contactinfoWrapper
+  .contactinfo
+  .contactinfosvgDial
+  div
+  a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color1);
+  color: black;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+.Contact
+  .ContactWrapper
+  .Contactleft
+  .contactinfoWrapper
+  .contactinfo
+  .contactinfosvgDial
+  div
+  a:hover {
+  background-color: var(--color2);
+}
+
+.Contact .ContactWrapper .contactRight {
+  width: 70%;
+  margin-bottom: 20px;
+}
+.Contact .ContactWrapper .contactRight h1,
+.Contact .ContactWrapper .contactRight p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.Contact .ContactWrapper .contactRight .divimage {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+.Contact .ContactWrapper .contactRight .divimage img {
+  width: 60%;
+  object-fit: cover;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+@media screen and (max-width: 59.375em) {
+  .Contact .ContactWrapper .Contactleft {
+    width: 50%;
+  }
+  .Contact .ContactWrapper .contactRight {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 59.375em) {
+  .Contact .ContactWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Contact .ContactWrapper .Contactleft {
+    width: 80%;
+  }
+  .Contact .ContactWrapper .contactRight {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 29.875em) {
+  .Contact .ContactWrapper .contactRight form textarea,
+  .Contact .ContactWrapper .contactRight form input {
+    width: 90%;
+  }
+  .Contact
+    .ContactWrapper
+    .Contactleft
+    .contactinfoWrapper
+    .contactinfo
+    .contactinfosvgDial
+    div {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 26.875em) {
+  .Contact {
+    margin-top: 5rem;
+  }
+  .Contact .Hedaer {
+    background-position: center;
+  }
+  .Contact .ContactWrapper .Contactleft .leftHead h1,
+  .Contact .ContactWrapper .Contactleft .contactinfoWrapper .contactinfo h2,
+  .Contact
+    .ContactWrapper
+    .Contactleft
+    .contactinfoWrapper
+    .contactinfo
+    .contactinfosvgDial
+    p,
+  .Contact .ContactWrapper .Contactleft .leftHead p {
+    font-size: 13px;
+  }
+  .Contact
+    .ContactWrapper
+    .Contactleft
+    .contactinfoWrapper
+    .contactinfo
+    .contactinfosvgDial
+    div
+    a {
+    width: 30px;
+    height: 30px;
+  }
+  .Contact .ContactWrapper .contactRight h1,
+  .Contact .ContactWrapper .contactRight p {
+    font-size: 13px;
+  }
+  .Contact .ContactWrapper .contactRight .divimage img {
+    width: 100%;
+  }
+}

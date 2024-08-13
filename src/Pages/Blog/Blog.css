@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 26.875em) {
   .Blog {
-    margin-top: 7rem;
+    margin-top: 5rem;
   }
   .Blog .statDetails ul {
     width: 80%;
@@ -163,6 +163,10 @@
   .BlogWrapper .PersonalCard {
     width: 100%;
   }
+  .Blog .statDetails h3 {
+    font-size: 15px;
+  }
+  .Blog .statDetails ul li .stat,
   .BlogWrapper .item .title h3 {
     font-size: 13px;
   }

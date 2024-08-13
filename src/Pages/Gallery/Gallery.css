@@ -78,7 +78,7 @@
 }
 @media screen and (max-width: 26.875em) {
   .Gallery {
-    margin-top: 7rem;
+    margin-top: 5rem;
   }
   .Gallery .GalleryWrapper .Gallerycard {
     width: 90%;
