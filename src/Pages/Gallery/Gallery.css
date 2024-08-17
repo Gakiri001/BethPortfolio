@@ -34,7 +34,7 @@
 }
 .Gallery .GalleryWrapper .Gallerycard .Gallerycardimage img {
   width: 100%;
-  height: 70vh;
+  height: 85vh;
   object-fit: cover;
   border-top-left-radius: 60px;
   border-bottom-right-radius: 60px;
