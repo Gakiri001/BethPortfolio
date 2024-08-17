@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaInstagram,
   FaWhatsapp,
+  FaTiktok
 } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import "./Contact.css";
@@ -73,22 +74,22 @@ function Contact() {
               <h2>Social</h2>
               <div className="contactinfosvgDial">
                 <div>
-                  <a href="https://x.com/" target="_blank">
-                    <BsTwitterX />
+                  <a href="https://www.tiktok.com/@bethephraim?_t=8ov5ecYutvy&_r=1" target="_blank">
+                    <FaTiktok />
                   </a>
                 </div>
                 <div>
-                  <a href="https://facebook.com/" target="_blank">
+                  <a href="https://web.facebook.com/beth.ephraim.1" target="_blank">
                     <FaFacebookF />
                   </a>
                 </div>
                 <div>
-                  <a href="https://linkedin.com/" target="_blank">
+                  <a href="https://www.linkedin.com/in/bethmacharia/" target="_blank">
                     <FaLinkedin />
                   </a>
                 </div>
                 <div>
-                  <a href="https://instagram.com/" target="_blank">
+                  <a href="https://www.instagram.com/beth_ephraim/" target="_blank">
                     <FaInstagram />
                   </a>
                 </div>

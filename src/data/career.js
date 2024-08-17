@@ -2,7 +2,7 @@ const career = [
   {
     CareerQuestion: "How did you get started in the modeling industry?",
     CareerAnswer:
-      "My journey into modeling began in 2019 during my time at Machakos University. I discovered the modeling urge while still a student, and what started as a hobby soon turned into a passion and a full-time career. My first major breakthrough was being featured in the Nairobian, which opened many doors for me.",
+      "I got my start in the modeling industry quite unexpectedly. In February 2019, a friend of mine sent me a poster for a high-fashion event hosted by Cuffest Modeling Agency. Intrigued, I decided to attend the audition, even though I had no prior runway experience. To my surprise, they chose me to join their roster. The agency then provided me with the training I needed to navigate the runway and build a foundation in modeling. It was an exciting leap into an industry I had always wanted to join since my childhood so it quickly became a passion.",
   },
   {
     CareerQuestion:
