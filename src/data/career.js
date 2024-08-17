@@ -8,12 +8,12 @@ const career = [
     CareerQuestion:
       " What are some of the biggest challenges you've faced as a model?",
     CareerAnswer:
-      "One of the biggest challenges has been maintaining confidence in an industry that often focuses on appearance. However, I've learned to embrace my uniqueness and stay true to myself, which has been key to my success.",
+      "One of the biggest challenges I've faced as a model is the financial strain associated with the profession. Financing a modeling career is no small feat—photo shoots can be expensive, and the costs don't stop there. Designers, stylists, makeup artists, and hair artists all need to be compensated, and maintaining a wardrobe that aligns with industry standards requires significant investment. It can be tough to find platforms that truly value modeling as both a skill and a viable source of income. Navigating these financial hurdles has been a constant balancing act, but it's also fueled my determination to succeed in this competitive field."
   },
   {
     CareerQuestion: " What advice would you give to aspiring models?",
     CareerAnswer:
-      "Believe in yourself and your unique qualities. The modeling industry can be tough, but perseverance and a strong sense of self can help you overcome the challenges. Networking and continuously improving your skills are also crucial.",
+      "Trust yourself, stay consistent, and embrace confidence in who you are. The journey can be challenging, but believing in your own potential is crucial. Consistency in your efforts, from attending castings to practicing your runway walk, will set you apart. Most importantly, confidence is key—own your unique qualities and let your individuality shine through. The modeling industry values authenticity and self-assurance, so don't be afraid to show the world what makes you special.",
   },
 ];
 
