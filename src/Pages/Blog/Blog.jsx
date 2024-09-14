@@ -27,7 +27,7 @@ function Blog() {
           <br />
           <li>
             <span className="stat">
-              <b>BUST</b> &#8594; 82 32'{" "}
+              <b>BUST</b> &#8594; 32.2'{" "}
             </span>
             <span className="percent">
               <div style={{ width: "70%" }}></div>
@@ -36,7 +36,16 @@ function Blog() {
           <br />
           <li>
             <span className="stat">
-              <b>WAIST</b> &#8594; 62 24'{" "}
+              <b>SHOULDER</b> &#8594; 18'{" "}
+            </span>
+            <span className="percent">
+              <div style={{ width: "50%" }}></div>
+            </span>
+          </li>
+          <br />
+          <li>
+            <span className="stat">
+              <b>ARM WIDTH</b> &#8594; 11.2'{" "}
             </span>
             <span className="percent">
               <div style={{ width: "40%" }}></div>
@@ -45,7 +54,25 @@ function Blog() {
           <br />
           <li>
             <span className="stat">
-              <b>HIPS</b> &#8594; 88 35'{" "}
+              <b>ARM LENGTH</b> &#8594; 22'{" "}
+            </span>
+            <span className="percent">
+              <div style={{ width: "50%" }}></div>
+            </span>
+          </li>
+          <br />
+          <li>
+            <span className="stat">
+              <b>WAIST</b> &#8594; 25.5'
+            </span>
+            <span className="percent">
+              <div style={{ width: "40%" }}></div>
+            </span>
+          </li>
+          <br />
+          <li>
+            <span className="stat">
+              <b>HIPS</b> &#8594; 38'{" "}
             </span>
             <span className="percent">
               <div style={{ width: "90%" }}></div>
