@@ -47,7 +47,7 @@
   position: relative;
   width: 100%;
   height: 6px;
-  background: #081921;
+  background: #4e4e4e;
   display: inline-block;
   margin-top: 5px;
 }
@@ -59,7 +59,7 @@
   background-color: var(--color1);
 }
 .Blog .statDetails ul li .percent .hair {
-  background-color: red;
+  background-color: black;
 }
 
 @media screen and (max-width: 32.1875em) {

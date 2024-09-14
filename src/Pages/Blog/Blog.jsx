@@ -18,7 +18,7 @@ function Blog() {
         <ul>
           <li>
             <span className="stat">
-              <b>HEIGHT</b> &#8594; 178 = 5'10'{" "}
+              <b>HEIGHT</b> &#8594; 5'6
             </span>
             <span className="percent">
               <div style={{ width: "80%" }}></div>
@@ -81,7 +81,7 @@ function Blog() {
           <br />
           <li>
             <span className="stat">
-              <b>SHOE SIZE</b> &#8594; 39 - 6'{" "}
+              <b>SHOE SIZE</b> &#8594; 39
             </span>
             <span className="percent">
               <div style={{ width: "70%" }}></div>
@@ -90,7 +90,7 @@ function Blog() {
           <br />
           <li>
             <span className="stat">
-              <b>HAIR COLOR</b> &#8594; red{" "}
+              <b>HAIR COLOR</b> &#8594; black
             </span>
             <span className="percent">
               <div className="hair" style={{ width: "100%" }}></div>
